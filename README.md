@@ -12,13 +12,14 @@ SpotBot is a Python script that allows you to download music from Spotify. It ta
 ## Usage
 1. Create a file named "SpotList.txt" in the desired folder where you want to download the music.
 2. In the "SpotList.txt" file, enter Spotify share links in the following format:
-
-###  Album: Album Name - Artist Name
-###  https://open.spotify.com/album/
-###  Song: Song Name - Artist Name
-###  https://open.spotify.com/song/
-###  Playlist: Playlist Name - Various Artists
-###  https://open.spotify.com/playlist/
+```
+Album: Album Name - Artist Name
+https://open.spotify.com/album/
+Song: Song Name - Artist Name
+https://open.spotify.com/song/
+Playlist: Playlist Name - Various Artists
+https://open.spotify.com/playlist/
+```
 
 3. Run the script using the command: `python3 SpotBot.py`
 4. Select the desired bitrate from the listed options (the larger the bitrate, the larger the file)
