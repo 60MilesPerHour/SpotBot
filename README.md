@@ -3,7 +3,7 @@
 SpotBot is a Python script that allows you to download music from Spotify. It takes share links from Spotify (albums, songs, and playlists) and downloads the corresponding music into the user-specified directory. The bot creates folders for each item (albums, songs, and playlists) and sorts the music accordingly.
 
 ## Requirements
-- Python 3 and the latest version of pip (pip3)
+- Python 3.8 and the latest version of pip (pip3)
 - FFMPEG and SpotDL
 - A Spotify subscription
 - A file named "SpotList.txt" in the desired folder where music will be downloaded to.
