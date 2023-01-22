@@ -2,27 +2,27 @@
 
 SpotBot is a Python script that allows you to download music from Spotify. It takes share links from Spotify (albums, songs, and playlists) and downloads the corresponding music into the user-specified directory. The bot creates folders for each item (albums, songs, and playlists) and sorts the music accordingly.
 
-## Usage
-1. Create a file named "SpotList.txt" in the desired folder where you want to download the music.
-2. In the "SpotList.txt" file, enter Spotify share links in the following format:
-
-#### Album: Album Name - Artist Name
-#### https://open.spotify.com/album/
-#### Song: Song Name - Artist Name
-#### https://open.spotify.com/song/
-#### Playlist: Playlist Name - Various Artists
-#### https://open.spotify.com/playlist/
-
-3. Run the script using the command: `python3 SpotBot.py`
-4. Select the desired bitrate from the listed options (the larger the bitrate, the larger the file)
-5. The bot will start downloading the music and sorting it into the corresponding folders.
-
 ## Requirements
 - Debian version of Linux, 18.04 or newer (Raspberry Pi 4 works great)
 - Python 3.8 and the latest version of pip (pip3)
 - FFMPEG and SpotDL
 - A Spotify subscription
 - A file named "SpotList.txt" in the desired folder where music will be downloaded to.
+
+## Usage
+1. Create a file named "SpotList.txt" in the desired folder where you want to download the music.
+2. In the "SpotList.txt" file, enter Spotify share links in the following format:
+
+###  Album: Album Name - Artist Name
+###  https://open.spotify.com/album/
+###  Song: Song Name - Artist Name
+###  https://open.spotify.com/song/
+###  Playlist: Playlist Name - Various Artists
+###  https://open.spotify.com/playlist/
+
+3. Run the script using the command: `python3 SpotBot.py`
+4. Select the desired bitrate from the listed options (the larger the bitrate, the larger the file)
+5. The bot will start downloading the music and sorting it into the corresponding folders.
 
 ## Note
 - The bot requires Spotify share links in the specific format shown above to work correctly.
