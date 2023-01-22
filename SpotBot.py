@@ -2,9 +2,9 @@
 import re
 import os
 
-spotify_list = open('/home/miles/Music/SpotList.txt', 'r')
+spotify_list = open('/home/USER/Music/SpotList.txt', 'r')
 bitrate = str(input('Enter the bitrate you want to download the music at (128k, 256k, 320k): '))
-os.chdir('/home/miles/Music')
+os.chdir('/home/USER/Music')
 music = []
 for line in spotify_list:
     if line.startswith('Album: ') or line.startswith('album: '):
@@ -19,7 +19,7 @@ for line in spotify_list:
     else:
         continue
 spotify_links = []
-with open("/home/miles/Music/SpotList.txt", 'r') as file:
+with open("/home/USER/Music/SpotList.txt", 'r') as file:
         for line in file:
             albums = re.findall('https://open.spotify.com/album/.*', line)
             playlists = re.findall('https://open.spotify.com/playlist/.*', line)
